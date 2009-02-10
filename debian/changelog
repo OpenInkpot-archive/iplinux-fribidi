@@ -1,3 +1,9 @@
+fribidi (0.19.1-1.oi2) unstable; urgency=low
+
+  * separated -bin package
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Tue, 10 Feb 2009 15:54:44 +0000
+
 fribidi (0.19.1-1.oi1) unstable; urgency=low
 
   * OI build
