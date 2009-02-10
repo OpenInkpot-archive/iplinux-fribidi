@@ -23,7 +23,7 @@ endif
 configure: configure-stamp
 configure-stamp:
 	dh_testdir
-	CFLAGS="${DEB_CFLAGS}" ./configure --prefix=/usr --disable-dependency-tracking
+	CFLAGS="${DEB_CFLAGS}" ./configure --prefix=/usr --disable-dependency-tracking --host=${DEB_HOST_GNU_TYPE}
 	touch configure-stamp
 
 
@@ -72,9 +72,9 @@ binary-arch: build install
 
 	dh_movefiles
 
-	dh_installdocs -a
-	dh_installman -a
-	dh_installchangelogs ChangeLog -a
+	#dh_installdocs -a
+	#dh_installman -a
+	#dh_installchangelogs ChangeLog -a
 	mkdir -p debian/$(FRIBIDI_UDEB)/lib
 	cp -a debian/libfribidi0/usr/lib/* debian/$(FRIBIDI_UDEB)/lib
 	dh_strip -a
