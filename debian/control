@@ -14,6 +14,12 @@ Description: Free Implementation of the Unicode BiDi algorithm
  FriBiDi is a BiDi algorithm implementation for Hebrew and/or Arabic
  languages.
 
+Package: libfribidi-bin
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Free Implementation of the Unicode BiDi algorithm
+ Command line interface for the fribidi library. 
+
 Package: libfribidi-dev
 Architecture: any
 Section: libdevel
