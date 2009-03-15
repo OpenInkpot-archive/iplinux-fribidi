@@ -1,5 +1,6 @@
 Source: fribidi
 Section: core
+Priority: optional
 Maintainer: Alexander Kerner <lunohod@openinkpot.org>
 Build-Depends: debhelper (>> 5.0.22), pkg-config, automake
 XCS-Cross-Host-Build-Depends: debhelper (>> 5.0.22), pkg-config, automake
@@ -9,6 +10,7 @@ Homepage: http://www.fribidi.org/
 
 Package: libfribidi0
 Architecture: any
+Priority: optional
 Depends: ${shlibs:Depends}
 Description: Free Implementation of the Unicode BiDi algorithm
  FriBiDi is a BiDi algorithm implementation for Hebrew and/or Arabic
@@ -16,6 +18,7 @@ Description: Free Implementation of the Unicode BiDi algorithm
 
 Package: libfribidi-bin
 Architecture: any
+Priority: optional
 Depends: ${shlibs:Depends}
 Description: Free Implementation of the Unicode BiDi algorithm
  Command line interface for the fribidi library. 
@@ -23,6 +26,7 @@ Description: Free Implementation of the Unicode BiDi algorithm
 Package: libfribidi-dev
 Architecture: any
 Section: libdevel
+Priority: optional
 Depends: libfribidi0 (= ${binary:Version})
 Description: Development files for FreeBidi library
  This package contains the header files and static libraries for the
