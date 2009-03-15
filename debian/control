@@ -1,8 +1,8 @@
 Source: fribidi
 Section: core
 Maintainer: Alexander Kerner <lunohod@openinkpot.org>
-Build-Depends: debhelper (>> 5.0.22), pkg-config
-XCS-Cross-Host-Build-Depends: debhelper (>> 5.0.22), pkg-config
+Build-Depends: debhelper (>> 5.0.22), pkg-config, automake
+XCS-Cross-Host-Build-Depends: debhelper (>> 5.0.22), pkg-config, automake
 XCS-Cross-Build-Depends:
 Standards-Version: 3.7.3
 Homepage: http://www.fribidi.org/
