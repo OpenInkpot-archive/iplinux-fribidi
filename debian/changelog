@@ -1,3 +1,9 @@
+fribidi (0.19.1-2.ip1) asimov; urgency=low
+
+  *  version bump
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Sun, 15 Mar 2009 12:41:18 +0100
+
 fribidi (0.19.1-1.ip1) asimov; urgency=low
 
   * First IPlinux build
