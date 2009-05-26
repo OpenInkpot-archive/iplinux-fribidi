@@ -1,3 +1,9 @@
+fribidi (0.19.1-2.ip2+b1) asimov; urgency=low
+
+  * rebuild with new toolchain
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Tue, 26 May 2009 18:32:03 +0200
+
 fribidi (0.19.1-2.ip2) asimov; urgency=low
 
   * Added Priority to the debian/control
